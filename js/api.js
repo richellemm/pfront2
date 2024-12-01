@@ -20,15 +20,6 @@ function obterMensagens() {
 
 function inserirMensagem(mensagem) {
 
-    /*
-
-    var mensagem = {
-            nome: "nome da pessoa", 
-            email: "email informado", 
-            mensagem: "a mensagem informada"} 
-
-    */
-
     var inserir = $.ajax({
 
         url: 'https://app-p2-aab7c7fdddb8.herokuapp.com/mensagens',
@@ -41,17 +32,6 @@ function inserirMensagem(mensagem) {
 }
 
 function validarUsuario(objLoginSenha) {
-
-    //email: admin@admin.com
-    //senha: '1234'
-
-    /*
-
-    var objLoginSenha = {
-            email: "email informado", 
-            senha: "senha informada"} 
-
-    */
 
     var retorno = false;
 
